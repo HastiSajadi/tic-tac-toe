@@ -34,4 +34,12 @@ body{
     display: flex;
     justify-content:center ;
     align-items: center;
+    cursor: pointer;
+}
+
+#info{
+    color: white;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
