@@ -14,7 +14,7 @@ function createBoard(){
         const createCell = document.createElement('div');
         createCell.classList.add('cell');
         createCell.id = index;
-        createCell.addEventListener('click' , addGo());
+        createCell.addEventListener('click' , addGo);
         gameBoard.append(createCell);
     })
 }
