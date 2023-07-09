@@ -30,5 +30,5 @@ function addGo(e){
     }else{
         go = "circle"
     }
-    
+    infoDisplay.textContent="It is now "+go+"'s turn";
 }
