@@ -78,3 +78,20 @@ body{
     height: 20%;
     margin-top: -5px;
 }
+
+#resetBtn{
+    padding: 8px 16px;
+    background-color: crimson;
+    border: 1px solid crimson;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#resetBtn:hover{
+    background-color: transparent;
+    color: crimson;
+}
