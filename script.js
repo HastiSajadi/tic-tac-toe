@@ -61,3 +61,8 @@ function checkScores(){
         }    
     })
 }
+
+function restartGame(){
+   window.location.reload();
+    
+}
