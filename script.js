@@ -31,4 +31,5 @@ function addGo(e){
         go = "circle"
     }
     infoDisplay.textContent="It is now "+go+"'s turn";
+    e.target.removeEventListener('click', addGo);
 }
