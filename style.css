@@ -12,3 +12,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+#gameboard{
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    border: 1px solid crimson;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
